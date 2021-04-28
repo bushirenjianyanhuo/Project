@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:background="#FF6600">
+
+
+
+    <ImageView
+        android:id="@+id/header_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_baseline_help_outline_24"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="猿猴"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        style="@style/Base.CardView"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_person_add_24"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+
+
+</LinearLayout>
